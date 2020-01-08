@@ -1,0 +1,19 @@
+package javaaula;
+
+public class Motorcycle extends Vehicle {
+
+    public static void main(String[] args) {
+        Vehicle vel = new Vehicle();
+        vel.go();
+        //VEICULO
+        System.out.println("Wheels of Vehicle: " + vel.wheels());
+        //MOTOCICLETA
+        Motorcycle mot = new Motorcycle();
+        System.out.println("Wheels of Motorcycle: " + mot.wheels());
+    }
+
+    @Override
+    public int wheels() {
+        return 2;
+    }
+}
