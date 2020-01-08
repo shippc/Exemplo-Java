@@ -1,0 +1,18 @@
+package javaaula;
+
+public class Vehicle {
+
+    public static void main(String[] args) {
+
+    }
+
+    public int wheels() {
+        return 4;
+
+    }
+
+    public void go() {
+        System.out.println("zoom!");
+    }
+
+}
